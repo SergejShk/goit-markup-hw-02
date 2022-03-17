@@ -18,6 +18,9 @@
 .list {
   list-style: none;
 }
+.btn {
+  font-family: Roboto, sans-serif;
+}
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -42,7 +45,8 @@ body {
 }
 /* Site-nav */
 .site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link:focus,
+.site-nav-link:active {
   color: var(--accent-color);
 }
 .site-nav-link {
